@@ -1,0 +1,90 @@
+.gym__head  {
+    position: absolute;
+    right: 15%;
+    bottom: 19rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.gym {
+    color: red;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.gym__head h1 {
+    font-size: calc(3rem + 4vw);
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+h1 {
+    font-size:80px;
+}
+
+.button {
+    margin-top:40px;
+    padding: 12px 36px;
+    color:#fff;
+    background-color: rgba(128, 0, 0, 0.1);
+    border: 1.7px solid #fff;
+    font-size: 20px;
+}
+.button:hover {
+    background-color: red;
+}
+
+/* .carousel__div {
+    z-index:-1;
+} */
+
+.carousel-indicators {
+    opacity: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .gym__head  {
+        bottom: 7.25rem;
+        color: #fff;
+    }
+
+    .gym__head h1 {
+        font-size: calc(2rem + 3vw);
+    }
+    .gym {
+        color: red;
+        font-size: 18px;
+    }
+    h1 {
+        font-size:40px;
+        margin-bottom:0px;
+    }
+    
+    .button {
+        margin-top:10px;
+        font-size:12px;
+        padding:8px 30px;
+       
+    }
+
+    .carousel-indicators {
+        opacity: 0;
+    }
+
+    .carousel-control-next {
+        /* z-index:-1; */
+        height: 200px;
+        margin-top: 95px;
+    }
+    .carousel-control-prev {
+        /* z-index:1; */
+        height: 200px;
+        margin-top: 95px;
+    }
+    .carousel-item {
+        margin-top: 75px;
+    }
+    
+  }

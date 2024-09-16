@@ -1,0 +1,118 @@
+.footer {
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(../global/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top:-25px;
+    padding-bottom: 55px;
+}
+.footer__content {
+    display:flex;
+    justify-content:space-around;
+}
+
+.footer__head {
+    color: #e41c26;
+    padding: 65px 66px 14px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    line-height: 2;
+}
+ li a {
+    text-decoration: none;
+    color: #fff;
+   
+ }
+
+ .icon__list {
+     margin: 20px 0 0 -20px;
+ }
+ .loc__icon {
+     color: #fff;
+ }
+
+ .icons {
+     color: #fff;
+     border: 1px solid #fff;
+     border-radius:100px;
+     padding:5px 8px;
+     margin:5px;
+     font-size:16px;
+     cursor: pointer;
+ }
+ .icons:hover {
+    background-color:#fff;
+    color:#000;
+ }
+
+ .open__hours {
+     text-align:left;
+ }
+ .open__hours h4 {
+    color:#fff;
+    text-transform:capitalize;
+ }
+
+ .open__hours p{
+     color:#fff;
+     font-size: 13px;
+     letter-spacing: 1px;
+ }
+
+ .capyrights{
+    text-align:center;
+    color:#fff;
+    font-size: 13px;
+    margin-top: 25px;
+ }
+
+ @media only screen and (max-width: 480px) {
+    .footer {
+        margin-top:20px;
+        text-align:left;
+        background-size: 364%;
+    }
+     .footer__content {
+        padding: 40px 10px 0 10px;
+        display:inline-block;
+     }
+
+     .footer__head {
+        font-size: 18px;
+        padding:0px;
+        letter-spacing: -1px;
+    }
+    .icon__list {
+        margin:0px 0px 10px 0;
+    }
+
+    .icons {
+        font-size:12px;
+        padding:2px 3px;
+    }
+    ul{
+        padding-left: 0;
+        font-size:12px;
+    }
+
+    h4 {
+        font-size:14px;
+        margin-bottom:0;
+    }
+
+     p {
+        font-size:12px;
+        margin-bottom:2px;
+    }
+ };

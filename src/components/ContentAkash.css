@@ -1,0 +1,155 @@
+.subscribe{
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(../global/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    color: white;
+    padding: 40px 0px;
+    height: 300px;
+}
+
+@media (max-width:860px) {
+    .subscribe{
+        background-size: 200%;
+        background-position-x: center;
+    }
+}
+.subscribe input{
+    border: none;
+    border-radius: 0px;
+    padding: 10px 60px 10px 10px;
+    color: black;
+}
+.subscribe button{
+    background-color: #e41c26;
+    color: white;
+    border: 0px solid;
+    padding: 10px
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+.timetable{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* font-size: x-small; */
+}
+.timetable h6{
+    color:rgb(218, 15, 15);
+}
+
+@media (max-width:576px){
+    .subscribe {
+        height: 290px;
+    }
+    .tableR{
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .bmichild1 {
+        display: none;
+    }
+    .bmichild2 {
+        height: 290px;
+        padding-top: 45px !important;
+    }
+    .bmi {
+        height: 50px !important;
+    }
+}
+
+
+
+.table thead, .table .col1{
+    background-color: black;
+    color: white;
+}
+.table thead{
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.table .col1{
+    padding: 12px 3px 0px 3px;
+}
+
+.bmi {
+    height: 400px;
+}
+
+.bmichild1{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../global/img/carousel-1.jpg);
+    background-size:150% ;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left;
+    padding: 100px 80px !important;
+}
+.bmichild1 h5{
+    color: #e41c26;
+}
+.bmichild2{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 70px 10px 20px 0px;
+}
+.bmichild2 h2{
+    margin-left:27px;
+    margin-bottom: 10px;
+}
+
+.inputC{
+    border-radius: 0 !important;
+    border: 1px solid grey !important;
+    color: white !important;
+    background-color: rgb(53, 52, 52) !important;
+    font-size: 150% !important;
+    margin: 5px 10px 5px 0px;
+}
+.row>*{
+    padding-right: 0;
+}
+.bmichild1 {
+    padding-right: 30px;
+}
+.bmichild2{
+    padding-right: 15px;
+    padding-top: 90px;
+}
+
+button.inputC{
+    width: 100%;
+    border: 1.5px solid white !important;
+}
+
+.bmichild2 span {
+    font-size: 19px;
+    font-weight: 700;
+    padding-left: 9px;
+}
+.btn-group button {
+    font-size: 1.5rem;
+}
+/* line 47
+.timetable .btn-group button{
+    background-color: white;
+    border: none;
+    color: #e41c26;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+.btn-group button:hover {
+    background-color: #e41c26;
+    color: white;
+  }
+
+  */
+
